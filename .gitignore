@@ -1,0 +1,36 @@
+# Игнорировать файлы сборки и настройки
+bin/
+obj/
+.vs/
+*.user
+*.suo
+*.cache
+*.log
+*.nupkg
+*.swp
+
+# Игнорировать файлы Rider (если используете)
+.idea/
+
+# Игнорировать файл .env
+.env
+
+# Игнорировать файлы Visual Studio Code
+.vscode/
+
+# Игнорировать локальные настройки
+local.settings.json
+
+# Игнорировать папку с зависимостями (если используется)
+packages/
+
+# Игнорировать файлы Docker
+Dockerfile
+docker-compose.yml
+.dockerignore
+
+# Игнорировать файлы тестов
+TestResults/
+
+# Игнорировать файлы пользовательских настроек
+*.userprefs
